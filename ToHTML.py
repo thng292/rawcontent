@@ -1,6 +1,6 @@
 import csv
 
-shtml = """<!DOCTYPE html><html><head><title>Answer</title><link rel="stylesheet" href="style.css"></head><body>"""
+shtml = """<!DOCTYPE html><html><head><title>Answer</title><link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body>"""
 ehtml = """</body></html>"""
 
 outFile = open("index.html",mode='w',encoding="utf-8")

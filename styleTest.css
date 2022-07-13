@@ -1,7 +1,5 @@
 body {
     font-family: serif;
-    margin: 40px 20% 40px 20%;
-    font-size: large;
 }
 
 @media only screen and (max-width: 800px) {
@@ -13,6 +11,7 @@ body {
 .content {
     padding: 20px;
     border-bottom: 1px solid gainsboro;
+    font-size: large;
 }
 
 small, time {
