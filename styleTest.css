@@ -1,11 +1,17 @@
 body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 20% 60% 18%;
+}
+
+h1, h2, h3, strong {
     font-family: serif;
 }
 
-@media only screen and (max-width: 800px) {
-    body {
-        margin: 10px;
-    }
+#foot {
+    text-align: center;
+    padding: 20px;
 }
 
 .content {
@@ -17,4 +23,20 @@ body {
 small, time {
     font-family: sans-serif;
     color:rgb(117, 117, 117)
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 10px;
+        grid-template-columns: auto;
+    }
+}
+
+.sticky-item { 
+    position: sticky;
+    top: 20%;
+}
+
+.table-content, li {
+    padding-left: 20px;
 }
